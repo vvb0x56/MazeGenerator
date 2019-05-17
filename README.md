@@ -1,11 +1,11 @@
 # MazeGenerator
 
-This is a simple maze generator class.
+This is a simple maze generator class with ability to solve itself
 
 To compile the project just run  
 $ ./make.sh 
 
-Run: 
+Run:   
 $ ./run.sh
 
 Result of the generation: 

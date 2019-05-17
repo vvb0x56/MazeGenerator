@@ -31,15 +31,15 @@ public class Maze {
     private enum Direction { UP, DOWN, LEFT, RIGHT, NOWAY}
 
     Maze() {
-        map = new char[31][101];
+        map = new char[21][81];
 
         init();
     }
 
     Maze(int r, int c) {
         //Maze can't be less that 5x5 size;
-        if (r < 5) r = 5;
-        if (c < 5) c = 5;
+        if (r < 1) r = 1;
+        if (c < 1) c = 1;
         
         map = new char[r * 2 - 1][c * 2 - 1];
 

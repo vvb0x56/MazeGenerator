@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Maze maze = new Maze(30, 110);
+        Maze maze = new Maze();
       //  maze.print();
         maze.gen();
       //  System.out.print(":::\n");
